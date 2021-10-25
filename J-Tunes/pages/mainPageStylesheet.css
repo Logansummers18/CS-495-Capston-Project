@@ -1,0 +1,112 @@
+/*-------------------------Header Styling-------------------------------------*/
+#headerDiv{
+    height: 10%;
+    border-bottom: solid lightgray 1px;
+}
+
+.header{
+    background-color: transparent;
+    cursor: pointer;
+    border: 0px;
+    margin: auto;
+    width: 13%;
+}
+
+#jTunesButton{
+    height: 50px;
+    width: 100px;
+    text-align: center;
+    margin: auto;
+    border: black solid 1px;
+}
+
+#logout{
+    background-color: black;
+    color: white;
+}
+
+
+/*-----------------------Middle Styling-------------------------------------*/
+#middleDiv{
+    border-bottom: lightgray solid 1px;
+    height: 40%;
+    width: 100%;
+    position: absolute;
+    top: 15%;
+}
+
+#welcomeText{
+    font-weight: bold;
+    font-size: 350%;
+    margin: 0px;
+    position: absolute;
+    top: 5%;
+    left: 15%;
+}
+
+#filterButton{
+    background-color: black;
+    color: white;
+    width: 120px;
+    cursor: pointer;
+    position: absolute;
+    left: 17%;
+    top: 60%;
+}
+
+#insertImg{
+    max-width: 250px;
+    max-height: 250px;
+    height: auto;
+    width: auto;
+    position: absolute;
+    left: 60%;
+}
+
+/*-----------------------Bottom Styling-------------------------------------*/
+#bottomDiv{
+    border-bottom: solid lightgray 1px;
+    position:absolute;
+    height: 40%;
+    width: 100%;
+    top: 60%;
+}
+
+.bottomButtons{
+    height: 100px;
+    width: 100px;
+    margin: 0 auto;
+    cursor: pointer;
+    position: absolute;
+}
+
+#bottomSong{
+    top: 0%;
+    left: 20%;
+}
+
+#bottomSongList{
+    top: 0%;
+    left: 40%;
+
+}
+#bottomUsers{
+    top: 0%;
+    left: 60%;
+
+}
+#bottomNewSongList{
+    top: 50%;
+    left: 20%;
+
+}
+#bottomAddSong{
+    top: 50%;
+    left: 40%;
+
+}
+#bottomAddUser{
+    top: 50%;
+    left: 60%;
+
+}

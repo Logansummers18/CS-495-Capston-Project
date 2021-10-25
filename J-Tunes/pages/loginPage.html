@@ -1,0 +1,30 @@
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <title>Login</title>
+   <link href="loginPageStylesheet.css" rel="stylesheet">
+</head>
+
+<body>
+    <div id="headerDiv">
+        <button id="jTunesButton" class="header" onclick="location.href='mainPage.html';">JTunes ♪</button>
+        <button id="hSongs" class="header" onclick="location.href='songsPage.html';">Songs</button>
+        <button id="hLists" class="header">Lists</button>
+        <button id="hTeam" class="header">Team</button>
+        <button id="hStats" class="header">Statistics</button>
+        <button id="help" class="header">Help</button>
+        <button id="logout" class="header"  onclick="location.href='loginPage.html';">Logout</button>
+    </div>
+
+    <div>
+        <label for="userName">UserName: </label><br>
+        <input type="text" id="userName">
+        <br><br>
+        <label for="password">Password: </label><br>
+        <input type="password" id="password"><br><br>
+        <input type="submit" >
+
+        <input type="button" id="newUser" value="New User"><br><br>
+        <input type="button" id="forgotPassword" value="Forgot Password?">
+    </div>
+</body>

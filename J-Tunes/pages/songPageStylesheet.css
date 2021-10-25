@@ -1,0 +1,33 @@
+/*-------------------------Header Styling-------------------------------------*/
+#headerDiv{
+    height: 10%;
+    border-bottom: solid lightgray 1px;
+}
+
+.header{
+    background-color: transparent;
+    cursor: pointer;
+    border: 0px;
+    margin: auto;
+    width: 13%;
+}
+
+#jTunesButton{
+    height: 50px;
+    width: 100px;
+    text-align: center;
+    margin: auto;
+    border: black solid 1px;
+}
+
+#logout{
+    background-color: black;
+    color: white;
+}
+
+/*-----------------------Middle Styling-------------------------------------*/
+#songTitle{
+    background-color: gray;
+    width: 20%;
+    height: 300px;
+}
