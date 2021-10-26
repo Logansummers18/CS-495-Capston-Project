@@ -26,8 +26,122 @@
 }
 
 /*-----------------------Middle Styling-------------------------------------*/
+#middleDiv{
+    height: 67vh;
+}
+#middleDiv > p{
+    position: absolute;
+    border: black solid 2px;
+    text-align: center;
+}
 #songTitle{
     background-color: gray;
-    width: 20%;
-    height: 300px;
+    width: 50%;
+    height: 20%;
+    top: 3%;
+    font-size: 50px;
 }
+#tempoLabel{
+    background-color: lightgray;
+    width: 25%;
+    height: 5%;
+    top: 27%;
+}
+#tagsLabel{
+    background-color: lightgray;
+    width: 24.9%;
+    height: 5%;
+    top: 27%;
+    left: 25.5%;
+}
+#tempo{
+    background-color: lightgray;
+    width: 25%;
+    height: 10%;
+    top: 32.3%;
+}
+#tags{
+    background-color: lightgray;
+    width: 24.9%;
+    height: 10%;
+    top: 32.3%;
+    left: 25.5%;
+}
+#scripturesLabel{
+    background-color: lightgray;
+    width: 25%;
+    height: 5%;
+    top: 42.5%;
+}
+#scriptures{
+    background-color: lightgray;
+    width: 25%;
+    height: 10%;
+    top: 47.5%;
+}
+#links{
+    background-color: lightgray;
+    width: 24.9%;
+    height: 15%;
+    top: 42.5%;
+    left: 25.5%;
+}
+#chartUpload{
+    background-color: gray;
+    width: 50%;
+    height: 15%;
+    top: 57.7%;
+}
+#pdfDownloads{
+    background-color: gray;
+    width: 50%;
+    height: 15%;
+    top: 57.7%;
+    left: 50.5%;
+}
+#video{
+    position: absolute;
+    width: 49%;
+    height: 50.5%;
+    top: 8.5%;
+    left: 50.5%;
+}
+
+/*-----------------------Bottom Styling-------------------------------------*/
+#bottomDiv{
+   height: 22vh; 
+}
+#bottomDiv > p{
+    position: absolute;
+    text-align: center;
+}
+#playHistoryLabel{
+    border: black solid 2px;
+    height: 3%;
+    width: 10%;
+    font-size: 20px;
+    left: 10%;
+}
+#playAmount{
+    border: solid black 2px;
+    background-color: gray;
+    height: 2.9%;
+    width: 2%;
+    left: 20.1%;
+    top: 75.1%;
+}
+#dateLabel{
+    background-color: gray;
+    height: 3%;
+    width: 30%;
+    top: 78.5%;
+    left: 10%;
+}
+#titleLabel{
+    background-color: gray;
+    height: 3%;
+    width: 30%;
+    top: 78.5%;
+    left: 50%;
+}
+
