@@ -1,5 +1,9 @@
+import Link from 'next/link'
+import styles from '../J-Tunes/styles/songPageStylesheet.module.css'
 function Songs(){
-    return (<div id="headerDiv">
+    return (
+    <div className = {styles}>
+    <div id="headerDiv">
     <button id="jTunesButton" class="header" onclick="location.href='mainPage.html';">JTunes ♪</button>
     <button id="hSongs" class="header" onclick="location.href='songsPage.html';">Songs</button>
     <button id="hLists" class="header">Lists</button>
@@ -7,6 +11,9 @@ function Songs(){
     <button id="hStats" class="header">Statistics</button>
     <button id="help" class="header">Help</button>
     <button id="logout" class="header"  onclick="location.href='loginPage.html';">Logout</button>
+    <button id="help" class="header"> <Link href="/">
+          <a>Home</a>
+        </Link></button>
 
     
     <p id="songTitle">No One Like You ♪</p>
@@ -25,8 +32,9 @@ function Songs(){
     <p id="playAmount">0</p>
     <p id="dateLabel">Date</p>
     <p id="titleLabel">Title</p>
-    
-</div>)
+
+</div> 
+</div>  )
   }
   
   export default Songs

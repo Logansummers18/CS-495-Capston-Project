@@ -1,3 +1,4 @@
+import Link from 'next/link'
 function HomePage() {
   return (
   <div id="headerDiv">
@@ -8,6 +9,12 @@ function HomePage() {
       <button id="hStats" class="header">Statistics</button>
       <button id="help" class="header">Help</button>
       <button id="logout" class="header"  onclick="location.href='loginPage.html';">Logout</button>
+      <button id="help" class="header"> <Link href="/home">
+          <a>Home</a>
+        </Link></button>
+      <button id="help" class="header"> <Link href="/songs">
+          <a>Songs</a>
+        </Link></button>
 
       <label for="userName">UserName: </label><br></br>
       <input type="text" id="userName"></input>

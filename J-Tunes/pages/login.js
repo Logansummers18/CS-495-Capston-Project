@@ -1,3 +1,4 @@
+import Link from 'next/link'
 function Login(){
     return(<div id="headerDiv">
     <button id="jTunesButton" class="header" onclick="location.href='mainPage.html';">JTunes ♪</button>
@@ -7,6 +8,12 @@ function Login(){
     <button id="hStats" class="header">Statistics</button>
     <button id="help" class="header">Help</button>
     <button id="logout" class="header"  onclick="location.href='loginPage.html';">Logout</button>
+    <button id="help" class="header"> <Link href="/">
+          <a>Home</a>
+        </Link></button>
+      <button id="help" class="header"> <Link href="/songs">
+          <a>Songs</a>
+        </Link></button>
 
     <label for="userName">UserName: </label><br></br>
     <input type="text" id="userName"></input>
