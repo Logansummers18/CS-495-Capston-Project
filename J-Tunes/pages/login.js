@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import '../styles/loginPageStylesheet.css'
 function Login(){
     return(<div id="headerDiv">
     <button id="jTunesButton" class="header" onclick="location.href='mainPage.html';">JTunes ♪</button>

@@ -1,5 +1,5 @@
 /*-------------------------Header Styling-------------------------------------*/
-#headerDiv{
+.headerDiv{
     height: 10%;
     border-bottom: solid lightgray 1px;
 }
@@ -12,7 +12,7 @@
     width: 13%;
 }
 
-#jTunesButton{
+.jTunesButton{
     height: 50px;
     width: 100px;
     text-align: center;
@@ -20,86 +20,86 @@
     border: black solid 1px;
 }
 
-#logout{
+.logout{
     background-color: black;
     color: white;
 }
 
 /*-----------------------Middle Styling-------------------------------------*/
-#middleDiv{
+.middleDiv{
     height: 67vh;
 }
-#middleDiv > p{
+.middleDiv > p{
     position: absolute;
     border: black solid 2px;
     text-align: center;
 }
-#songTitle{
+.songTitle{
     background-color: gray;
     width: 50%;
     height: 20%;
     top: 3%;
     font-size: 50px;
 }
-#tempoLabel{
+.tempoLabel{
     background-color: lightgray;
     width: 25%;
     height: 5%;
     top: 27%;
 }
-#tagsLabel{
+.tagsLabel{
     background-color: lightgray;
     width: 24.9%;
     height: 5%;
     top: 27%;
     left: 25.5%;
 }
-#tempo{
+.tempo{
     background-color: lightgray;
     width: 25%;
     height: 10%;
     top: 32.3%;
 }
-#tags{
+.tags{
     background-color: lightgray;
     width: 24.9%;
     height: 10%;
     top: 32.3%;
     left: 25.5%;
 }
-#scripturesLabel{
+.scripturesLabel{
     background-color: lightgray;
     width: 25%;
     height: 5%;
     top: 42.5%;
 }
-#scriptures{
+.scriptures{
     background-color: lightgray;
     width: 25%;
     height: 10%;
     top: 47.5%;
 }
-#links{
+.links{
     background-color: lightgray;
     width: 24.9%;
     height: 15%;
     top: 42.5%;
     left: 25.5%;
 }
-#chartUpload{
+.chartUpload{
     background-color: gray;
     width: 50%;
     height: 15%;
     top: 57.7%;
 }
-#pdfDownloads{
+.pdfDownloads{
     background-color: gray;
     width: 50%;
     height: 15%;
     top: 57.7%;
     left: 50.5%;
 }
-#video{
+.video{
     position: absolute;
     width: 49%;
     height: 50.5%;
@@ -108,21 +108,21 @@
 }
 
 /*-----------------------Bottom Styling-------------------------------------*/
-#bottomDiv{
+.bottomDiv{
    height: 22vh; 
 }
-#bottomDiv > p{
+.bottomDiv > p{
     position: absolute;
     text-align: center;
 }
-#playHistoryLabel{
+.playHistoryLabel{
     border: black solid 2px;
     height: 3%;
     width: 10%;
     font-size: 20px;
     left: 10%;
 }
-#playAmount{
+.playAmount{
     border: solid black 2px;
     background-color: gray;
     height: 2.9%;
@@ -130,14 +130,14 @@
     left: 20.1%;
     top: 75.1%;
 }
-#dateLabel{
+.dateLabel{
     background-color: gray;
     height: 3%;
     width: 30%;
     top: 78.5%;
     left: 10%;
 }
-#titleLabel{
+.titleLabel{
     background-color: gray;
     height: 3%;
     width: 30%;
