@@ -1,18 +1,18 @@
 import Link from 'next/link'
-import '../styles/loginPageStylesheet.css'
+import styles from '../styles/loginPageStylesheet.module.css'
 function Login(){
     return(<div id="headerDiv">
-    <button id="jTunesButton" class="header" onclick="location.href='mainPage.html';">JTunes ♪</button>
-    <button id="hSongs" class="header" onclick="location.href='songsPage.html';">Songs</button>
-    <button id="hLists" class="header">Lists</button>
-    <button id="hTeam" class="header">Team</button>
-    <button id="hStats" class="header">Statistics</button>
-    <button id="help" class="header">Help</button>
-    <button id="logout" class="header"  onclick="location.href='loginPage.html';">Logout</button>
-    <button id="help" class="header"> <Link href="/">
+    <button id="jTunesButton" className={styles.jTUnesButton} onclick="location.href='mainPage.html';">JTunes ♪</button>
+    <button id="hSongs" className={styles.hSongs} onclick="location.href='songsPage.html';">Songs</button>
+    <button id="hLists" className={styles.hLists}>Lists</button>
+    <button id="hTeam" className={styles.hTeam}>Team</button>
+    <button id="hStats" className={styles.hStats}>Statistics</button>
+    <button id="help" className={styles.help}>Help</button>
+    <button id="logout" className={styles.logout}  onclick="location.href='loginPage.html';">Logout</button>
+    <button id="help" className={styles.help}> <Link href="/">
           <a>Home</a>
         </Link></button>
-      <button id="help" class="header"> <Link href="/songs">
+      <button id="help" className={styles.help}> <Link href="/songs">
           <a>Songs</a>
         </Link></button>
 
